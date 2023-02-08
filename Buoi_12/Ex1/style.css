@@ -1,0 +1,29 @@
+*{
+    margin: 0px   auto;
+
+}
+.container{
+    width: 500px;
+    margin-top: 50px;
+}
+.img{
+    overflow: hidden;
+    height: 300px;
+}
+.content{
+    padding: 50px;
+}
+.h2__gray{
+    color: gray;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.para__gray{
+    color: gray;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.btn{
+    
+}
