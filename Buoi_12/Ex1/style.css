@@ -9,6 +9,10 @@
 .img{
     overflow: hidden;
     height: 300px;
+    border-top: 15px;
+}
+img{
+    object-fit: cover;
 }
 .content{
     padding: 50px;
@@ -25,5 +29,7 @@
     padding-bottom: 40px;
 }
 .btn{
-    
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
 }
