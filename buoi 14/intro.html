@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- cho chuỗi A = ‘Học Javascript Front    End tại Nestech   ,Quận 10’
+  Bài 1
+	tìm vị trí chuỗi “Javascript”
+	thay vị trí chuỗi “Javascript” thành “ReactJS” 
+
+  Bài 2
+  	hiển thị chuỗi A với việc bỏ khoảng trắng
+	cắt chuỗi A tại thành dấu phẩy và hiển thị cụm sau của chuỗi sau khi cắt  -->
+
+
+    <script>
+        let A = "Học Javascript Front    End tại Nestech   ,Quận 10";
+        // tìm vị trí chuỗi “Javascript”
+        let viTri = A.indexOf("Javascript");
+        document.write("Vị trí của chuỗi 'Javascript' là: " + viTri);
+        // thay vị trí chuỗi “Javascript” thành “ReactJS” 
+        let Aa = A.replace("Javascript", "ReactJS");
+        document.write( "Chuỗi A sau khi được thay thế:" + Aa);
+        // hiển thị chuỗi A với việc bỏ khoảng trắng
+        let Ab = A.trim();
+        document.write(Ab);
+        // cắt chuỗi A tại thành dấu phẩy và hiển thị cụm sau của chuỗi sau khi cắt 
+        let Ac = A.slice(-7);
+        document.write(Ac);
+
+    </script>
+    
+</body>
+</html>
