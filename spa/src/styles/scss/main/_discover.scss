@@ -1,0 +1,22 @@
+
+
+.Discover{
+    max-height: 800px;
+    position: relative;
+
+}
+
+.content {
+    &__abso{
+        position: absolute;
+        width: 400px;
+        left: 200px;
+        top: 50%;
+    }
+}
+
+.img__right {
+    object-fit: cover;
+    max-height: 800px;
+    padding-left: 400px;
+}

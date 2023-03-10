@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from "./components/Header";
+import '../src/styles/Styles.scss';
+import ContactComponents from './components/ContactComponents';
+import HeaderComponents from './components/HeaderComponents';
+import Discover from './components/section/Discover';
+import FooterComponents from './components/FooterComponents';
+
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />    
+        <HeaderComponents />    
+        <Discover /> 
+        <ContactComponents />
+        <FooterComponents />
       </div>
-    );
-  }
+    )
+  };
 }
 
 export default App;

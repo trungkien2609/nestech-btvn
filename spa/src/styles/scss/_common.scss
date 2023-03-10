@@ -1,0 +1,14 @@
+
+
+*{
+    margin: 0 auto;
+
+}
+
+.btn{
+    border: 3px solid #60afba;
+    &__blue{
+        @extend .btn;
+        background-color: #60afba;
+    }
+}

@@ -1,0 +1,18 @@
+
+.footer{
+    display: flex;
+    &__contact{
+        @extend .footer;
+        flex-direction: column;
+        background-color: #2d312f;
+    }
+    &__about{
+        &--all{
+            @extend .footer;
+            
+        }
+        &--col{
+            @extend .footer;
+        }
+    }
+}

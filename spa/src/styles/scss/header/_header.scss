@@ -1,0 +1,13 @@
+
+
+.header {
+    display: flex;
+    
+    &__nav{
+        @extend .header;
+        justify-content: space-between;
+    }
+}
+ul{
+    display: flex;
+}
